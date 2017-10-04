@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" style="-fx-background-color: aliceblue" fx:controller="com.src.brian.Controller" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="296.0" prefWidth="365.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTextField layoutX="48.0" layoutY="54.0" prefHeight="24.0" prefWidth="222.0" promptText="Username" />
+      <JFXPasswordField layoutX="48.0" layoutY="117.0" prefHeight="24.0" prefWidth="222.0" promptText="Password" />
+      <JFXButton layoutX="48.0" layoutY="170.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="107.0" text="Login" style="-fx-background-color: darkgrey" />
+      <JFXButton layoutX="159.0" layoutY="170.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="107.0" text="Exit"  style="-fx-background-color: darkgrey" />
+   </children>
+</Pane>
